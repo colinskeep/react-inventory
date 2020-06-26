@@ -1,0 +1,74 @@
+  .titles {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 900;
+    flex: 1 1;
+    border-left: 1px solid #86a1ca21;
+    border-right: 1px solid #86a1ca21;
+    
+  }
+  .items {
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+  }
+  .items:nth-of-type(even) {
+    background: #d4dcf0;
+  }
+  .item {
+    overflow: hidden;
+    border-left: 1px solid #86a1ca21;
+    border-right: 1px solid #86a1ca21;
+    padding-left: 6px;
+    padding-right: 15px;
+    font-size: calc(.2px + 2vmin);
+  }
+  .sku {
+    flex: .2;
+  }
+  .name {
+    flex: .45;
+  }
+  .quantity {
+    flex: .05;
+  }
+  .titleContainer {
+    position: sticky;
+    background-color: #9fa8da;
+    top: 0;
+    border-radius: .25rem .25rem 0rem 0rem;
+  }
+  .titles {
+    font-weight: 500;
+  }
+  .page {
+    width: 96%;
+    margin-left: 2%;
+  }
+  .form-inline label {
+    padding-right: 15px;
+  }
+  .form-group {
+    justify-content: flex-end;
+  }
+
+  .options {
+    padding: 5px;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+  }
+  .inventoryForm {
+    justify-content: flex-end;
+    padding-bottom: 5px;
+  }
+  .navbar-nav {
+    border-bottom: 1px solid #ced4da;
+  }
+  .addItem {
+      float: left;
+      margin: 5px;
+  }
